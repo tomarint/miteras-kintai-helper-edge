@@ -1,14 +1,14 @@
 # 🚀 MiTERAS勤怠入力
 
-これは、MiTERAS勤怠の休憩時間を自動的に入力するChrome拡張機能です。
+これは、MiTERAS勤怠の休憩時間を自動的に入力するEdge拡張機能です。
 
 ![Screenshot](./screenshots/1280x800.png)
 
 ## インストール方法
 
-Chromeウェブストアからインストールできます。
+Edgeアドオンストアからインストールできます。
 
-<https://chrome.google.com/webstore/detail/miteras-kintai-helper/lnpodkficjcocjggmhjeckdlfjkjndhg>
+<https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home>
 
 ## 初期設定
 
