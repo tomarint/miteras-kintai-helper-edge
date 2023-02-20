@@ -2,7 +2,7 @@
 
 これは、MiTERAS勤怠の休憩時間を自動的に入力するEdge拡張機能です。
 
-![Screenshot](./screenshots/1280x800.png)
+![Screenshot](./screenshots/login.png)
 
 ## インストール方法
 
