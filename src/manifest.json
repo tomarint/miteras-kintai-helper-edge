@@ -21,17 +21,34 @@
     "48": "images/icon48.png",
     "128": "images/icon128.png"
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://kintai.miteras.jp/*/work-condition"
+      ],
+      "js": [
+        "content_event.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://kintai.miteras.jp/*"
+      ],
+      "js": [
+        "content_style.js"
+      ]
+    }
+  ],
   "background": {
     "service_worker": "background.js"
   },
   "options_page": "options.html",
   "permissions": [
     "tabs",
-    "scripting",
     "contextMenus",
     "storage"
   ],
   "host_permissions": [
-    "https://kintai.miteras.jp/*"
+    "https://kintai.miteras.jp/*/work-condition"
   ]
 }
